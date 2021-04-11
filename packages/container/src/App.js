@@ -1,7 +1,12 @@
 import React from "react";
-import { mount } from "sycPayoutUI/SYCPayoutUIApp";
+import PayoutUIApp from "./components/PayoutUIApp";
 
-console.log("AAAAAA", mount);
 export default () => {
-  return <h1>hi there!</h1>;
+  return (
+    <div>
+      <h1>hi there!</h1>
+      <hr />
+      <PayoutUIApp />
+    </div>
+  );
 };
