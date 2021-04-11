@@ -18,6 +18,7 @@ const devConfig = {
       exposes: {
         "./SYCPayoutUIApp": "./src/bootstrap",
       },
+      shared: ["react", "react-dom"],
     }),
     new HtmlWebpackPlugin({
       template: "./public/index.html",
